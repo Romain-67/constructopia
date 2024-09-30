@@ -145,8 +145,8 @@ body {
   .bouton2 {
     padding-left: 12px;
     padding-right: 12px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 8px;
+    padding-bottom: 9px;
     border-radius: 10px;
     font-family: "Archivo", sans-serif;
     font-optical-sizing: auto;
@@ -176,3 +176,21 @@ body {
 	flex-wrap: wrap;
 }
 
+.grid {
+  height:300px;
+  width:507px;
+  z-index:1;
+  position:relative;
+}
+
+.barre {
+ z-index:2;
+ margin-bottom:-90px;
+ position:absolute;
+}
+
+.footer {
+  height:105px;
+  width:max-content;
+  background-color:#9F9C9C;
+}
