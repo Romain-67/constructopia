@@ -1,0 +1,178 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+body {
+  font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.archivo {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+  }
+
+
+  h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .blockgris {
+    height:658px;
+    background-color: rgb(82 82 91);
+    margin-bottom: 170px;
+  }
+
+  .navtext {
+    font-family: "Montserrat", system-ui;
+    font-weight: thin;
+    background-color:#BEBCBC;
+    padding-top: 11px;
+    padding-bottom:10px;
+    padding-left: 19px;
+  }
+
+  .logo {
+    width: 400px;
+
+  }
+
+  .txtlogo {
+    font-family: "Montserrat", system-ui;
+    font-weight: thin;
+    padding-bottom: 17px;
+  }
+
+  .bouton {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+  }
+
+  .titre {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color:#5A5757;
+    line-height: 45px;
+  }
+
+  .text {
+    color:#525252;
+    font-family: "Montserrat", system-ui;
+    font-size: 17px;
+  }
+
+  .green {
+    color:#A9CF38;
+    font-family: "Montserrat", system-ui;
+    font-weight: bold;
+  }
+
+  .image {
+    height: 200px ;
+    width: 373px;
+    object-fit: cover;
+  }
+
+  .images {
+    height: 200px;
+    width: 315px;
+    object-fit: cover;
+  }
+
+  .productos {
+    height: 260px;
+    width:;
+    background-color: rgb(40, 40, 40);
+  }
+
+  .cailloux {
+    height: 65px;
+    width: 65px;
+  }
+
+  .test {
+    gap: 260px;
+    font-family: "Montserrat", system-ui;
+    font-size:17px;
+    padding-left: 19px;
+    padding-top : 10px;
+  }
+
+  .test2 {
+    gap: 270px;
+  }
+
+  .ubuntu {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: 40px;
+  }
+
+  .montserrat {
+    font-family: "Montserrat", system-ui;
+    font-size:17px;
+
+  }
+
+  .contacto {
+    color:#525252;
+  }
+
+  .grey {
+    color:#525252;
+    font-family: "Montserrat", system-ui;
+    font-weight: bold;
+  }
+
+  .green2 {
+    color:#A9CF38;
+  }
+
+  .bouton2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+  }
+
+  .contacto2 {
+    display: flex;
+    align-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.imageencore {
+  height:300px;
+  width:460px;
+    object-fit: cover;
+    border-radius:15px;
+}
+
+.flexbox{
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
