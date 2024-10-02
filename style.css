@@ -24,7 +24,7 @@ body {
 
   .blockgris {
     height:658px;
-    background-color: rgb(82 82 91);
+    
     margin-bottom: 170px;
   }
 
@@ -93,8 +93,6 @@ body {
 
   .productos {
     height: 260px;
-    width:;
-    background-color: rgb(40, 40, 40);
   }
 
   .cailloux {
@@ -177,7 +175,7 @@ body {
 }
 
 .grid {
-  height:300px;
+  height:290px;
   width:507px;
   z-index:1;
   position:relative;
@@ -185,6 +183,7 @@ body {
 
 .barre {
  z-index:2;
+ margin-top:-3px;
  margin-bottom:-90px;
  position:absolute;
 }
@@ -193,4 +192,9 @@ body {
   height:105px;
   width:max-content;
   background-color:#9F9C9C;
+  box-shadow: -0px -25px 25px rgb(220, 220, 220);
+}
+
+.facebook {
+  margin-left: -5px;
 }
